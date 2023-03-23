@@ -1,0 +1,54 @@
+.header-search-input {
+    background: #F1F1F1 !important;
+    border-radius: 8px !important;
+}
+
+.header-right-menu {
+    .header-dropdown-menu {
+        border-radius: 8px !important;
+        background: $white-bg;
+        box-shadow: 0px 100px 80px rgba(56, 56, 56, 0.1), 0px 64.8148px 46.8519px rgba(56, 56, 56, 0.0759259), 0px 38.5185px 25.4815px rgba(56, 56, 56, 0.0607407), 0px 20px 13px rgba(56, 56, 56, 0.05), 0px 8.14815px 6.51852px rgba(56, 56, 56, 0.0392593), 0px 1.85185px 3.14815px rgba(56, 56, 56, 0.0240741);
+    }
+
+    .header-user-details {
+        background: $green-color;
+        color: $white-bg;
+
+        .header-user-initials {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+        }
+
+        .header-user-name {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 17px;
+        }
+
+        .header-user-email {
+            margin-top: 5px;
+        }
+    }
+
+
+
+    .header-setting-links {
+        margin: 0px 25px;
+
+        li {
+            height: 44px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            background: linear-gradient(180deg, #535457 0%, #43464C 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            padding: 10px 0px;
+        }
+    }
+}
